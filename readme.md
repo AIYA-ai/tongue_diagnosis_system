@@ -10,11 +10,11 @@
 
 需要准备一份yolo格式的数据集具体格式如下:
 
-![image-20230401093824229](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20230401093824229.png)
+![image-20230401093824229](images/image-20230401093824229.png)
 
 voc格式图像数据集:
 
-![image-20230401094801781](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20230401094801781.png)
+![image-20230401094801781](images/image-20230401094801781.png)
 
 ### 1.3数据集标注:
 
@@ -32,15 +32,15 @@ voc格式图像数据集:
 
 要注意将标签格式改为yolo
 
-![image-20230401100817363](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20230401100817363.png)
+![image-20230401100817363](images/image-20230401100817363.png)
 
 选择Auto Save mode开启自动保存
 
-![image-20230401100905909](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20230401100905909.png)
+![image-20230401100905909](images/image-20230401100905909.png)
 
 在右上角可以设置默认标签值,这样框选完会自动打上对应标签,不需要确认,所以建议将同一类数据放在一起标注,不要将不同类型数据混在一起
 
-![image-20230401101110648](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20230401101110648.png)
+![image-20230401101110648](images/image-20230401101110648.png)
 
 按W键开启标注,在图中拖拽画框即可,按A,D键可快速切换图片
 
@@ -56,11 +56,11 @@ voc格式图像数据集:
 
 选择Save Automatically自动保存,标注好的数据集默认放在标注数据集同文件夹下
 
-![image-20230401101636078](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20230401101636078.png)
+![image-20230401101636078](images/image-20230401101636078.png)
 
 点击Create Polygons开始标注,沿着要框选的目标沿着边缘一次点击围成圈即可
 
-![image-20230401102759424](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20230401102759424.png)
+![image-20230401102759424](images/image-20230401102759424.png)
 
 点击Edit Polygons可以对已经圈好的框进行手动修正
 
